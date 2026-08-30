@@ -1,0 +1,7 @@
+/* Correctif ciblé : la navigation responsive ne doit pas modifier le panneau d'édition. */
+@media (max-width:900px){
+  #drawer.drawer{display:block;align-items:initial;gap:0}
+}
+@media (max-width:680px){
+  #drawer.drawer{border-top:0}
+}
